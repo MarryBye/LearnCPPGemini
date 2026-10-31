@@ -1,0 +1,104 @@
+# ==========================================
+# macOS & OS-specific files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+
+# ==========================================
+# C++ Compiled Artifacts & Intermediates
+# ==========================================
+# Object files & Preprocessed / Assembly outputs
+*.o
+*.obj
+*.lo
+*.slo
+*.i
+*.ii
+*.s
+*.S
+
+# Static & Dynamic Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.def
+*.exp
+
+# Executables & Debug Symbols
+*.exe
+*.out
+*.app
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.map
+app
+main
+a.out
+
+# Crash dumps & Profiling
+core
+core.*
+*.core
+vgcore.*
+perf.data*
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+
+# ==========================================
+# CMake & Build Directories
+# ==========================================
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+Makefile
+*.cmake
+!CMakeLists.txt
+_deps/
+install_manifest.txt
+
+# ==========================================
+# Package Managers (Conan / vcpkg)
+# ==========================================
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+graph_info.json
+CMakeUserPresets.json
+
+# ==========================================
+# IDEs & Editors (VS Code, CLion, Xcode, VS)
+# ==========================================
+.vscode/
+.idea/
+.cache/
+.clangd/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+.vs/
+*.sln
+*.vcxproj*
+*.suo
+*.user
+*.Swp
+*~
